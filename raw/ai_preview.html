@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人工智能概论 | 智能新时代</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #1e293b;
+            background: linear-gradient(135deg, #f8fafc 0%, #eef2ff 100%);
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.9);
+            backdrop-filter: blur(2px);
+            border-radius: 2rem;
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
+            overflow: hidden;
+            padding: 2rem 2.5rem;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            background: linear-gradient(135deg, #2563eb, #7c3aed);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.01em;
+        }
+
+        .subhead {
+            font-size: 1.2rem;
+            color: #475569;
+            border-left: 4px solid #3b82f6;
+            padding-left: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .intro-card {
+            background: #f1f5f9;
+            border-radius: 1.5rem;
+            padding: 1.8rem;
+            margin-bottom: 2.5rem;
+            border: 1px solid #e2e8f0;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin: 1.5rem 0 1rem 0;
+            color: #0f172a;
+            border-bottom: 3px solid #3b82f6;
+            display: inline-block;
+            padding-bottom: 0.3rem;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            margin: 1rem 0 0.75rem;
+            color: #1e40af;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.8rem;
+            margin: 2rem 0;
+        }
+
+        .card {
+            background: white;
+            border-radius: 1.2rem;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px -2px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border: 1px solid #e2e8f0;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -12px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .emoji-badge {
+            font-size: 1.6rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #3b82f6;
+            color: white;
+            padding: 0.5rem 1.2rem;
+            border-radius: 2rem;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background: #2563eb;
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            color: #64748b;
+            font-size: 0.85rem;
+            border-top: 1px solid #cbd5e1;
+            padding-top: 1.8rem;
+        }
+
+        @media (max-width: 640px) {
+            .container { padding: 1.5rem; }
+            h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🧠 人工智能 · 新范式</h1>
+    <div class="subhead">从感知到认知，AI 正在重塑世界</div>
+
+    <div class="intro-card">
+        <p style="font-size: 1.1rem; margin-bottom: 0.8rem;"><strong>🌟 什么是人工智能？</strong></p>
+        <p>人工智能（Artificial Intelligence）是研究、开发用于模拟和扩展人类智能的理论与技术。它试图理解智能的本质，并创造出能够以类似人类方式做出反应的智能机器。从 1956 年达特茅斯会议至今，AI 经历了多次浪潮，如今在深度学习与大语言模型的推动下进入了前所未有的爆发期。</p>
+    </div>
+
+    <h2>📌 核心领域</h2>
+    <div class="grid-2">
+        <div class="card">
+            <h3><span class="emoji-badge">🤖</span> 机器学习</h3>
+            <p>监督学习、无监督学习、强化学习。让计算机从数据中自动学习规律，是当前 AI 的基石。</p>
+        </div>
+        <div class="card">
+            <h3><span class="emoji-badge">🧩</span> 深度学习</h3>
+            <p>基于深层神经网络的表示学习，在图像识别、自然语言处理等领域达到人类甚至超越人类的水平。</p>
+        </div>
+        <div class="card">
+            <h3><span class="emoji-badge">🗣️</span> 自然语言处理</h3>
+            <p>机器翻译、情感分析、智能对话。以 ChatGPT、DeepSeek 为代表的大模型彻底改变了人机交互方式。</p>
+        </div>
+        <div class="card">
+            <h3><span class="emoji-badge">👁️</span> 计算机视觉</h3>
+            <p>目标检测、图像分割、人脸识别。自动驾驶、医疗影像诊断的背后都是 CV 技术。</p>
+        </div>
+    </div>
+
+    <h2>⚙️ 技术栈速览</h2>
+    <div class="grid-2">
+        <div class="card">
+            <h3>🐍 编程语言</h3>
+            <p>Python 主导，兼顾 R、Julia、C++（高性能推理）</p>
+        </div>
+        <div class="card">
+            <h3>📚 经典框架</h3>
+            <p>PyTorch, TensorFlow, Scikit-learn, Hugging Face</p>
+        </div>
+        <div class="card">
+            <h3>🚀 大模型生态</h3>
+            <p>LangChain, LlamaIndex, Ollama, vLLM</p>
+        </div>
+        <div class="card">
+            <h3>📊 MLOps</h3>
+            <p>Docker, Kubeflow, MLflow, Weights & Biases</p>
+        </div>
+    </div>
+
+    <h2>🌍 未来趋势</h2>
+    <div class="intro-card" style="background: linear-gradient(120deg, #e0f2fe, #ffffff);">
+        <ul style="margin-left: 1.5rem;">
+            <li><strong>多模态 AI</strong> — 同时理解文本、图像、音频、视频</li>
+            <li><strong>Agentic AI</strong> — 自主规划、执行任务的智能体</li>
+            <li><strong>长上下文知识库</strong> — Karpathy 范式，个人知识管理的革命</li>
+            <li><strong>边缘 AI</strong> — 在手机、IoT 设备上运行高效模型</li>
+            <li><strong>AI 对齐与安全</strong> — 确保超级智能符合人类价值观</li>
+        </ul>
+    </div>
+
+    <footer>
+        © 2026 人工智能学习笔记 | 数据驱动未来，智能触手可及
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "a37c47f06e59bac3",
+    "type": "split",
+    "children": [
+      {
+        "id": "29b8570cf8484a08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b829a4c3e04f6869",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f99384b7d3fb6ff1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7dbf481950494a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9406f8b555ffb99",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "93bd8336da7c987f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "63382f575fdbb480",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "85b3d9d3c159ab44",
+    "type": "split",
+    "children": [
+      {
+        "id": "b664f31bce8fa376",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "296d18b3d50cb149",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "README 的反向链接列表"
+            }
+          },
+          {
+            "id": "84a69c6ddbae8923",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "README 的出链列表"
+            }
+          },
+          {
+            "id": "29b0ec859e60dc17",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "2bfd9f00c7ca3b91",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "b9fdad65c9880bd4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "README 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "b829a4c3e04f6869",
+  "lastOpenFiles": [
+    "wiki/concepts/线性代数.md",
+    "wiki/concepts/物联网.md",
+    "wiki/循环神经网络.md",
+    "wiki/Transformer.md",
+    "wiki/concepts/数值天气预报.md",
+    "wiki/concepts/AI气象预报.md",
+    "RFID.md",
+    "README.md",
+    "特征值.md",
+    "多模态AI.md",
+    "wiki/README.md",
+    "wiki/concepts/机器学习.md",
+    "wiki/concepts/人工智能.md",
+    "outputs/sessions/20260425_143409.json",
+    "raw/大学物理2期末总结.pdf",
+    "raw/现代经济管理基础24a.pdf",
+    "raw/线性代数.txt",
+    "raw/新建 文本文档.txt",
+    "raw/模电期末整理.pdf",
+    "raw/人工智能导论.pdf",
+    "raw/物联网技术.txt",
+    "wiki/计算机视觉.md",
+    "wiki/自然语言处理.md",
+    "wiki/深度学习.md",
+    "wiki/人工智能.md",
+    "wiki/机器学习.md",
+    "wiki/注意力机制.md",
+    "wiki/people/Tri_Dao.md",
+    "wiki/people/Albert_Gu.md",
+    "wiki/concepts/选择性机制.md",
+    "wiki/concepts/结构化状态空间模型.md",
+    "raw/ai_complications.html",
+    "raw/ai_preview.html",
+    "raw/人工智能学习.md",
+    "wiki/concepts/边际效用递减规律.md"
+  ]
+}

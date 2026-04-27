@@ -1,0 +1,31 @@
+{
+  "AI": [
+    "concepts/人工智能.md",
+    "concepts/机器学习.md",
+    "concepts/深度学习.md"
+  ],
+  "机器学习": [
+    "concepts/人工智能.md"
+  ],
+  "深度学习": [
+    "concepts/人工智能.md"
+  ],
+  "数据科学": [
+    "concepts/机器学习.md"
+  ],
+  "神经网络": [
+    "concepts/深度学习.md"
+  ],
+  "IoT": [
+    "concepts/物联网.md"
+  ],
+  "传感器网络": [
+    "concepts/物联网.md"
+  ],
+  "气象学": [
+    "concepts/数值天气预报.md"
+  ],
+  "计算科学": [
+    "concepts/数值天气预报.md"
+  ]
+}

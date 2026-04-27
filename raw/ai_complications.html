@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 应用场景 | 智慧百业</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: #0b1120;
+            color: #e2e8f0;
+            padding: 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            background: linear-gradient(135deg, #38bdf8, #a78bfa);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: 0.5rem auto 0;
+            color: #94a3b8;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .app-card {
+            background: #1e293b;
+            border-radius: 1.5rem;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            border: 1px solid #334155;
+            backdrop-filter: blur(4px);
+        }
+
+        .app-card:hover {
+            transform: translateY(-8px);
+            border-color: #3b82f6;
+            box-shadow: 0 20px 30px -15px rgba(59,130,246,0.3);
+        }
+
+        .card-header {
+            padding: 1.2rem 1.5rem 0.5rem;
+            font-size: 1.8rem;
+            background: linear-gradient(145deg, #0f172a, #1e293b);
+        }
+
+        .card-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin: 0.5rem 0 0.25rem;
+            color: #f1f5f9;
+        }
+
+        .card-content {
+            padding: 0 1.5rem 1.5rem;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #3b82f6;
+            font-size: 0.7rem;
+            padding: 0.2rem 0.7rem;
+            border-radius: 20px;
+            margin: 0.5rem 0.5rem 0 0;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+        }
+
+        .example {
+            margin-top: 1rem;
+            background: #0f172a;
+            border-radius: 1rem;
+            padding: 0.8rem;
+            font-size: 0.85rem;
+            color: #94a3b8;
+            border-left: 3px solid #38bdf8;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            color: #5b6e8c;
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 700px) {
+            body { padding: 1rem; }
+            .hero h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="hero">
+    <h1>✨ 人工智能 · 落地场景 ✨</h1>
+    <p>从实验室到产业，AI 正在赋能每一个行业</p>
+</div>
+
+<div class="cards-grid">
+    <div class="app-card">
+        <div class="card-header">🏥</div>
+        <div class="card-title">智慧医疗</div>
+        <div class="card-content">
+            <span class="tag">影像分析</span>
+            <span class="tag">药物研发</span>
+            <span class="tag">基因组学</span>
+            <div class="example">📌 例：AI 辅助肺结节检测，准确率超 95%；AlphaFold 预测蛋白质结构。</div>
+        </div>
+    </div>
+
+    <div class="app-card">
+        <div class="card-header">🚗</div>
+        <div class="card-title">自动驾驶</div>
+        <div class="card-content">
+            <span class="tag">感知</span>
+            <span class="tag">决策</span>
+            <span class="tag">高精地图</span>
+            <div class="example">📌 例：特斯拉 FSD、百度 Apollo，利用多模态融合实现城市道路领航。</div>
+        </div>
+    </div>
+
+    <div class="app-card">
+        <div class="card-header">💰</div>
+        <div class="card-title">金融科技</div>
+        <div class="card-content">
+            <span class="tag">风控</span>
+            <span class="tag">反欺诈</span>
+            <span class="tag">智能投顾</span>
+            <div class="example">📌 例：XGBoost 信用评分；大模型自动生成财报摘要。</div>
+        </div>
+    </div>
+
+    <div class="app-card">
+        <div class="card-header">📚</div>
+        <div class="card-title">智慧教育</div>
+        <div class="card-content">
+            <span class="tag">自适应学习</span>
+            <span class="tag">AI助教</span>
+            <span class="tag">自动批阅</span>
+            <div class="example">📌 例：Khanmigo 智能辅导；个性化学习路径推荐。</div>
+        </div>
+    </div>
+
+    <div class="app-card">
+        <div class="card-header">🏭</div>
+        <div class="card-title">工业物联网</div>
+        <div class="card-content">
+            <span class="tag">预测性维护</span>
+            <span class="tag">质量检测</span>
+            <span class="tag">数字孪生</span>
+            <div class="example">📌 例：利用时序异常检测提前预警设备故障，减少停机损失。</div>
+        </div>
+    </div>
+
+    <div class="app-card">
+        <div class="card-header">🎨</div>
+        <div class="card-title">AIGC 内容生成</div>
+        <div class="card-content">
+            <span class="tag">文生图</span>
+            <span class="tag">视频生成</span>
+            <span class="tag">代码生成</span>
+            <div class="example">📌 例：Midjourney / Stable Diffusion；Copilot 自动生成代码片段。</div>
+        </div>
+    </div>
+
+    <div class="app-card">
+        <div class="card-header">🌾</div>
+        <div class="card-title">智慧农业</div>
+        <div class="card-content">
+            <span class="tag">作物识别</span>
+            <span class="tag">无人机喷药</span>
+            <span class="tag">产量预测</span>
+            <div class="example">📌 例：计算机视觉检测病虫害，结合气象数据给出农事建议。</div>
+        </div>
+    </div>
+
+    <div class="app-card">
+        <div class="card-header">🔐</div>
+        <div class="card-title">网络安全</div>
+        <div class="card-content">
+            <span class="tag">入侵检测</span>
+            <span class="tag">深度伪造鉴别</span>
+            <span class="tag">智能防火墙</span>
+            <div class="example">📌 例：基于图神经网络的 APT 攻击溯源。</div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    人工智能正加速渗透到各行各业，创造数万亿经济价值 | 持续更新
+</footer>
+</body>
+</html>

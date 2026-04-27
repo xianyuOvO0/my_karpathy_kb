@@ -209,7 +209,7 @@ python app.py
 <details>
 <summary>❓ 编译时提示 <code>UnicodeDecodeError</code></summary>
 
-将 `raw/` 中的文本文件统一保存为 UTF-8 编码（可用 VS Code 右下角修改）。
+- 将 `raw/` 中的文本文件统一保存为 UTF-8 编码（可用 VS Code 右下角修改）。
 
 </details>
 
@@ -225,14 +225,14 @@ python app.py
 <details>
 <summary>❓ Obsidian 中点击链接无法跳转</summary>
 
-确保链接名称与 `.md` 文件名完全一致（包括中英文符号）。Obsidian 会自动匹配子目录，无需路径。
+- 确保链接名称与 `.md` 文件名完全一致（包括中英文符号）。Obsidian 会自动匹配子目录，无需路径。
 
 </details>
 
 <details>
 <summary>❓ API 请求超时</summary>
 
-在 `src/config.py` 中增加 `REQUESTS_TIMEOUT = 120`，并在 `compiler.py` 和 `query_engine.py` 的 OpenAI 客户端添加 `timeout` 参数。
+- 在 `src/config.py` 中增加 `REQUESTS_TIMEOUT = 120`，并在 `compiler.py` 和 `query_engine.py` 的 OpenAI 客户端添加 `timeout` 参数。
 
 </details>
 
